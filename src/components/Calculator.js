@@ -2,7 +2,7 @@ import React from 'react';
 import './Calculator.css';
 
 const Calculator = () => {
-  return(
+  return (
     <div className="calc">
       <p className="screen">0</p>
       <div>
@@ -36,6 +36,6 @@ const Calculator = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Calculator;
