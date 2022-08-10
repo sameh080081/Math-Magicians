@@ -27,9 +27,10 @@ class Calculator extends React.Component {
   }
 
   render() {
+    const { total, next } = this.state;
     return (
       <div className="calc">
-        <p className="screen" onChange={this.screen}>{ 0 }</p>
+        <p className="screen" onChange={this.screen}>{ next || total || 0 }</p>
         <div>
           <button type="button" onClick={this.operationClick} value="AC">AC</button>
           <button type="button" onClick={this.operationClick} value="+/-">+/-</button>
