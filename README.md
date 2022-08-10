@@ -18,18 +18,6 @@
 To get a local copy up and running follow these simple example steps.
 git clone git@github.com:sameh080081/Math-Magicians.git
 
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
 ## Authors
 
 👤 **Sameh Tantawy**
