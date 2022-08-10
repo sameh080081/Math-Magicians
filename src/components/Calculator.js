@@ -29,12 +29,12 @@ class Calculator extends React.Component {
   render() {
     return (
       <div className="calc">
-        <p className="screen" onChange={this.screen}>{this.state.next || this.state.total || 0}</p>
+        <p className="screen" onChange={this.screen}>{ this.state.next || this.state.total || 0 }</p>
         <div>
           <button type="button" onClick={this.operationClick} value="AC">AC</button>
           <button type="button" onClick={this.operationClick} value="+/-">+/-</button>
           <button type="button" onClick={this.operationClick} value="%">%</button>
-          <button type="button" onClick={this.operationClick} value='÷' className="orange">÷</button>
+          <button type="button" onClick={this.operationClick} value="÷" className="orange">÷</button>
         </div>
         <div>
           <button type="button" onClick={this.operationClick} value="7">7</button>
