@@ -12,7 +12,6 @@ class Calculator extends React.Component {
     };
     this.operationClick = this.operationClick.bind(this);
     this.screen = this.screen.bind(this);
-    this.display = this.display.bind(this);
   }
 
   operationClick = (e) => {
@@ -27,14 +26,10 @@ class Calculator extends React.Component {
     });
   }
 
-  display = () => {
-    return this.state.next || this.state.total || 0;
-  }
-
   render() {
     return (
       <div className="calc">
-        <p className="screen" onChange={this.screen}>{ this.display() }</p>
+        <p className="screen" onChange={this.screen}>{ 0 }</p>
         <div>
           <button type="button" onClick={this.operationClick} value="AC">AC</button>
           <button type="button" onClick={this.operationClick} value="+/-">+/-</button>
