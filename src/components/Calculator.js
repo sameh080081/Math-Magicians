@@ -3,19 +3,19 @@ import './Calculator.css';
 import calculate from '../logic/calculate';
 
 const Calculator = () => {
-  const [state, setState] = useState({total: 0, next: 0});
+  const [state, setState] = useState({ total: 0, next: 0 });
 
   const operationClick = (e) => {
     const operation = e.target.value;
     const result = calculate(state, operation);
     setState(result);
-  }
+  };
 
   const screen = (e) => {
     setState({
       total: e.target.value,
     });
-  }
+  };
 
   const { total, next } = state;
   return (
@@ -52,6 +52,6 @@ const Calculator = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Calculator;
