@@ -1,3 +1,10 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin-left: 50px;
+}
+
 .calc {
   width: 300px;
   height: 400px;
