@@ -1,14 +1,14 @@
 import './App.css';
-import Calculator from './components/Calculator';
-import Home from './components/home';
-import Quote from './components/quote';
-import Navbar from './components/Navbar';
 import React from 'react';
 import {
   BrowserRouter as Router,
   Routes,
   Route,
 } from 'react-router-dom';
+import Calculator from './components/Calculator';
+import Home from './components/home';
+import Quote from './components/quote';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
@@ -24,4 +24,3 @@ function App() {
 }
 
 export default App;
-

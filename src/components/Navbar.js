@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom';
 const NavBar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
-
   const closeMenu = () => {
     setNavbarOpen(false);
   };
