@@ -27,6 +27,7 @@ a {
 
 .Nav-brand {
   font-size: 3rem;
+  width: 100%;
 }
 
 .Nav-item {
