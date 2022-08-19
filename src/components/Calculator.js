@@ -30,6 +30,7 @@ class Calculator extends React.Component {
     const { total, next } = this.state;
     return (
       <div className="calc">
+        <h2>Let&apos;s do some math!</h2>
         <p className="screen" onChange={this.screen}>{ next || total || 0 }</p>
         <div>
           <button type="button" onClick={this.operationClick} value="AC">AC</button>
